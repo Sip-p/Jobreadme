@@ -28,7 +28,6 @@ A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.j
 - Express.js
 - MongoDB (Mongoose)
 - Redis (Upstash)
-- Socket.io
 - REST APIs
 
 ### Authentication & Security
@@ -41,7 +40,7 @@ A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.j
 - Cloudinary (Image & Resume Storage)
 - Multer (File Uploads)
 - Upstash Redis
-- Socket.io
+ 
 
 ---
 
@@ -68,7 +67,7 @@ A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.j
 - ⚡ Fast API Response with Redis
 - ☁️ Cloud-Based File Storage
 - 📱 Fully Responsive UI
-- 🔄 Real-Time Updates with Socket.io
+ 
 
 ---
 
@@ -79,8 +78,7 @@ A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.j
 - Implemented **Redis caching** to improve performance and reduce database load.
 - Used **Cloudinary** for scalable media and resume storage.
 - Structured backend with **Controllers → Services → Models** architecture.
-- Enabled **real-time communication** using Socket.io.
-
+ 
 ---
 
 ## 📂 Project Structure
