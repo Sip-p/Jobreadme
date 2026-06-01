@@ -1,0 +1,184 @@
+# 🚀 Hire-Sense - MERN Job Portal
+
+A full-stack job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that connects job seekers and recruiters with real-time application tracking, authentication, and dashboard analytics.
+
+---
+
+## 🔗 Quick Access
+
+👉 Frontend Code: https://github.com/Sip-p/jobfrontend  
+👉 Backend Code: https://github.com/Sip-p/jobbackend  
+👉 Live Demo: https://jobfrontend-one.vercel.app  
+👉 Backend API: https://jobbackend-cexl.onrender.com
+
+---
+
+## 💻 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Context API
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- Redis (Upstash)
+- Socket.io
+- REST APIs
+
+### Authentication & Security
+- JWT Authentication
+- bcryptjs
+- Cookie-based Authentication
+- Role-based Access Control
+
+### Media & Integrations
+- Cloudinary (Image & Resume Storage)
+- Multer (File Uploads)
+- Upstash Redis
+- Socket.io
+
+---
+
+## ✨ Features
+
+### Candidate Features
+- 👤 User Registration & Login
+- 📄 Resume Upload
+- 🔍 Browse Available Jobs
+- 💼 Apply to Jobs
+- 📋 Track Applications
+- 📝 Complete Candidate Profile
+
+### Recruiter Features
+- 🏢 Company Profile Creation
+- ➕ Create Job Listings
+- 📊 Recruiter Dashboard
+- 📂 Manage Posted Jobs
+- 👥 View Applicants
+- ✏️ Update Job Status
+
+### General Features
+- 🔐 Secure Authentication & Authorization
+- ⚡ Fast API Response with Redis
+- ☁️ Cloud-Based File Storage
+- 📱 Fully Responsive UI
+- 🔄 Real-Time Updates with Socket.io
+
+---
+
+## 🧠 System Design Highlights
+
+- Designed a **role-based authentication system** for Candidates and Recruiters.
+- Built **RESTful APIs** following scalable backend architecture.
+- Implemented **Redis caching** to improve performance and reduce database load.
+- Used **Cloudinary** for scalable media and resume storage.
+- Structured backend with **Controllers → Services → Models** architecture.
+- Enabled **real-time communication** using Socket.io.
+
+---
+
+## 📂 Project Structure
+
+### Frontend
+
+```bash
+src/
+├── assets/
+├── components/
+├── context/
+├── pages/
+├── services/
+└── App.jsx
+```
+
+### Backend
+
+```bash
+src/
+├── controllers/
+├── middlewares/
+├── models/
+├── routes/
+├── services/
+├── sockets/
+├── workers/
+└── server.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repositories
+
+```bash
+git clone https://github.com/Sip-p/jobfrontend.git
+git clone https://github.com/Sip-p/jobbackend.git
+```
+
+### 2. Frontend Setup
+
+```bash
+cd jobfrontend
+npm install
+npm run dev
+```
+
+### 3. Backend Setup
+
+```bash
+cd jobbackend
+npm install
+npm run dev
+```
+
+### 4. Configure Environment Variables
+
+Backend `.env`
+
+```env
+PORT=3000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret
+REDIS_URL=your_redis_url
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+
+Frontend `.env`
+
+```env
+VITE_BACKEND_URL=https://your-backend-url.com
+```
+
+---
+
+## 🚀 Future Improvements
+
+- 🔔 Real-time Notifications
+- 🤖 AI-Based Resume Screening
+- 📈 Advanced Analytics Dashboard
+- 💬 Recruiter-Candidate Chat System
+- 📧 Email Verification & Password Reset
+- 🎯 Job Recommendation Engine
+
+---
+
+## 👨‍💻 Author
+
+**Sipra Panda**
+
+- GitHub: https://github.com/Sip-p
+- LinkedIn: https://www.linkedin.com/in/sipra-panda/
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
